@@ -31,7 +31,7 @@ public interface MultipartDecoder
     UploadedFile getFileUpload(String parameterName);
 
     /**
-     * Decodes the request, returning a new {@link javax.servlet.http.HttpServletRequest} implementation that will allow
+     * Decodes the request, returning a new {@link jakarta.servlet.http.HttpServletRequest} implementation that will allow
      * access to the form fields submitted in the request (but omits uploaded files).
      *
      * @param request The incoming servlet request

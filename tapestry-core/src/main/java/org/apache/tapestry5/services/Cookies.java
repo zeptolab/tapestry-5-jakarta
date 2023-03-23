@@ -89,7 +89,7 @@ public interface Cookies
     void removeCookieValue(String name);
     
     /**
-     * Returns a {@link CookieBuilder} to build and write a {@link javax.servlet.http.Cookie}. The default
+     * Returns a {@link CookieBuilder} to build and write a {@link jakarta.servlet.http.Cookie}. The default
      * implementation creates a cookie who's value is stored using a max age (in seconds) defined by
      * the symbol <code>org.apache.tapestry5.default-cookie-max-age</code>. The factory default for
      * this value is the equivalent of one week. The default path is the context path (see

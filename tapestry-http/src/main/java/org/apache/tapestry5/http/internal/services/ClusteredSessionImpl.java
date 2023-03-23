@@ -23,7 +23,7 @@ import jakarta.servlet.http.HttpSession;
 import java.util.Map;
 
 /**
- * A thin wrapper around {@link javax.servlet.http.HttpSession} that supports re-storing of mutable
+ * A thin wrapper around {@link jakarta.servlet.http.HttpSession} that supports re-storing of mutable
  * session attributes at the end of the request (see {@link #restoreDirtyObjects()}). This is only
  * used when {@linkplain org.apache.tapestry5.SymbolConstants#CLUSTERED_SESSIONS clustering}.
  *

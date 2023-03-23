@@ -19,7 +19,7 @@ import java.net.URL;
 import java.util.List;
 
 /**
- * An API agnostic version of {@link javax.servlet.ServletContext}, used to bridge the gaps between the Servlet API and
+ * An API agnostic version of {@link jakarta.servlet.ServletContext}, used to bridge the gaps between the Servlet API and
  * the Portlet API.
  */
 public interface Context

@@ -26,7 +26,7 @@ import org.apache.tapestry5.http.services.Session;
 
 /**
  * Basic implementation of {@link org.apache.tapestry5.http.services.Request} that wraps around an
- * {@link javax.servlet.http.HttpServletRequest}. This is not threadsafe, nor should it need to be (each Request is
+ * {@link jakarta.servlet.http.HttpServletRequest}. This is not threadsafe, nor should it need to be (each Request is
  * handled by its own Thread).
  */
 public class RequestImpl implements Request
